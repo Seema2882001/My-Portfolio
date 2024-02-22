@@ -29,7 +29,7 @@ function Home() {
 
 <div className="left-side-content">
           <span className="hi">Hi, It's Me</span><br/>
-          <span className="blue-name name">Seema Shaik,</span><br/>
+          <span className="blue-name name">Seema Thabasum,</span><br/>
           <span className="hi">I'm a <span className="blue-name" ref={el}></span></span><br/>
 
           <p className="intro-para">I'm a front-end developer who likes to craft solid and scalable <span> front-end projects </span><br/>with great user experience</p>
