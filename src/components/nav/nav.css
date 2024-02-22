@@ -1,0 +1,112 @@
+#navbar-container{
+  background-color: rgb(30, 30, 30);
+   height:5rem ;
+   width:100vw;
+   max-width:80rem;
+   margin:0 2.8rem;
+   padding: 1rem 4rem;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   position:fixed;
+   top:0;
+   z-index: 3;
+  overflow:hidden ;
+   cursor: pointer;
+}
+.nav-logo{
+font-size: 30px;
+font-weight:600;
+color: rgb(73, 73, 203);
+}
+.Main-menu a{
+text-decoration: none;
+
+}
+.Main-menu {
+margin-top: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.menu-items{
+margin: 1rem;
+color: white;
+
+}
+.nav-btn{
+margin-top: 10px;
+background-color: rgb(73, 73, 203);
+padding: 0.6rem;
+border-radius: 10px;
+
+}
+.bi-person-fill{
+
+padding:4px;
+}
+
+.Main-menu a:hover{
+color: yellow;
+padding-bottom: 3px;
+border-bottom: 1px yellow solid;
+transition: 0.5s;
+}
+.nav-btn:hover{
+background-color: white;
+color: rgb(73, 73, 203);
+transition: 0.6s;
+}
+.active{
+  color: yellow;
+  padding-bottom: 3px;
+border-bottom: 1px yellow solid;
+}
+.Mob-menu{
+  display: none;
+  font-size:2rem;
+color: yellow;
+ 
+}
+ .nav-menu{
+position:fixed;
+top:4rem;
+right:1rem;
+z-index:2;
+display: flex;
+flex-direction: column;
+height: fit-content;
+padding: 0.5rem;
+min-width: 15rem;
+background-color: rgb(40, 40, 40);
+border-radius: 1rem;
+
+}
+ .list-items{
+color: white;
+padding: 0.5rem 3rem;
+margin: 0.25rem;
+text-decoration: none;
+background-color: rgb(30, 30, 30);
+}
+
+
+@media screen and (max-width:942px) {
+  .Mob-menu{
+    display: flex;
+  }
+  .Main-menu{
+    display: none;
+  }
+  .nav-btn{
+    display: none;
+  }
+  #navbar-container{
+    margin:0;
+    padding: 1rem 2rem;
+
+  }
+
+  
+}
