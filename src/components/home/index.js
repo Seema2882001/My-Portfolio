@@ -11,7 +11,7 @@ function Home() {
     const typed = new Typed(el.current, {
       strings: ['Web Devloper', 'Frontend Devloper','Dancer','Gamer'],
       // startDelay: 160,
-      typeSpeed: 130,
+      typeSpeed: 120,
       backSpeed: 50,
       showCursor: false,
       // fadeOut: true,
