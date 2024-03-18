@@ -12,21 +12,21 @@ const About =()=>{
                 <i class="bi bi-front icon"></i>
                 <div className="skill-bar-text">
                 <span className="title-text">Ui/UX design</span>
-                <p>lorem kzdjhvhvh jknevieninh jkjekbebbebiue jkkvbjbvjdbvjkbs jbvjbvbubv bvjbvbuvb</p>
+                <p>As a budding web developer, I blend creativity and functionality to craft user-centric UI/UX designs that enhance digital experiences. Let's collaborate to turn your visions into intuitive and visually striking web interfaces</p>
                 </div>
                 </div>
                 <div className ="skill-bar">
                 <i class="bi bi-phone-fill icon"></i>
                 <div className="skill-bar-text">
                 <span className="title-text">Website design</span>
-                <p>lorem kzdjhvhvh jknevieninh jkjekbebbebiue jkkvbjbvjdbvjkbs jbvjbvbubv bvjbvbuvb</p>
+                <p>From sleek interfaces to seamless user experiences, I specialize in crafting websites that captivate and engage. Let's elevate your online presence with design that leaves a lasting impression</p>
                 </div>
                 </div>
                 <div className ="skill-bar">
                 <i class="bi bi-postcard-heart icon"></i>
                 <div className="skill-bar-text">
-                <span className="title-text">App design</span>
-                <p>lorem kzdjhvhvh jknevieninh jkjekbebbebiue jkkvbjbvjdbvjkbs jbvjbvbubv bvjbvbuvb</p>
+                <span className="title-text">User Experience</span>
+                <p>Crafting digital experiences with precision and passion, I'm dedicated to weaving innovation into every line of code. Let's collaborate and transform ideas into captivating web solutions together</p>
                 </div>
                 </div>
             </div>

@@ -2,8 +2,7 @@ import React from 'react'
 import './home.css'
 import Typed from 'typed.js';
 import bg from '../../assests/images/img.webp';
-import resume from '../../assests/resume.pdf';
-
+import resume from '../../assests/sam.resume.pdf';
 function Home() {
   const el = React.useRef(null);
 
